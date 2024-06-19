@@ -1,9 +1,6 @@
 import os 
-import json 
 from datetime import datetime 
-import io
-from dotenv import load_dotenv, find_dotenv, dotenv_values
-
+from dotenv import dotenv_values
 from langchain.chains.llm import LLMChain
 from langchain.prompts import PromptTemplate
 from langchain_community.llms import OpenAI
