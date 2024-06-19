@@ -6,6 +6,7 @@ from langchain.prompts import PromptTemplate
 from langchain_community.llms import OpenAI
 from langchain_openai import ChatOpenAI
 from openai import OpenAI
+import streamlit as st
 
 
 from langchain.output_parsers import ResponseSchema, StructuredOutputParser
@@ -14,7 +15,7 @@ from langchain.output_parsers import ResponseSchema, StructuredOutputParser
 #_ = load_dotenv(find_dotenv())
 
 env = dotenv_values('.env')
-os.environ['OPENAI_API_KEY'] = env.get("OPENAI_API_KEY")
+os.environ['OPENAI_API_KEY'] = st.secrets["OPENAI_API_KEY"]
 
 meals = ResponseSchema(
         name="meals",
