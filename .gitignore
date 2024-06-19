@@ -1,0 +1,6 @@
+env/
+temp_upload/
+.env 
+supa.txt 
+feedback.txt 
+__pycache__

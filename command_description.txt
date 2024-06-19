@@ -1,0 +1,5 @@
+start - Find out what i can do
+recipe - Generate a single meal based on your ingredients
+daily - Generate a daily meal plan based on your available ingredients 
+weekly - Generate a weekly downloadable meal plan based on your available ingredients 
+help - Do you have any complains / suggestions 
